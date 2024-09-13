@@ -8,7 +8,7 @@ function Exercício529() {
     let numero = Number(prompt('digite um numero: '))
     if (numero > 0) {
       setResultado('o número é positivo')
-    } else if (numero < 0) {
+    } else if (numero < -0) {
       setResultado('o número é negativo')
     } else {
       setResultado('é zero')

@@ -1,4 +1,5 @@
 import { useState } from "react"
+import './App.css'
 
 function Exemplo() {
   const [resultado, setResultado] = useState(0)
@@ -7,19 +8,18 @@ function Exemplo() {
       setResultado[resultado + 1]
     }
     function diminuir(){
-      setResultado[resultado + 1]
+      setResultado[resultado - 1]
     }
 
   return (
-
     <div>
 
     <button onClick={aumentar}>+</button>
-    <button onClick={diminuir}>-</button>
     {resultado}
+    <button onClick={diminuir}>-</button>
+    
 
     </div>
-
   )
 }
 

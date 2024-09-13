@@ -1,0 +1,10 @@
+body{
+  background-color: darkgrey;
+  color: blue;
+}
+
+.div{
+  background-color: rgb(220, 220, 220);
+  border: 1px solid;
+  border-radius: 10%;
+}

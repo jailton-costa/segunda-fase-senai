@@ -1,12 +1,12 @@
 import "./app.css"
-import Exemplo from "./componetes/Exemplo"
+import Exercício531 from "./componetes/Exercício531"
 
 function App() {
 
 
   return (
     <>
-    <Exemplo/>
+    <Exercício531 />
     </>
   )
 }

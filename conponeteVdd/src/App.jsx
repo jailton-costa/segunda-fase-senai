@@ -1,12 +1,12 @@
-
 import './App.css'
+import TelaInicio from "./componetes/TelaInicio"
 
 function App() {
 
 
   return (
     <>
-    <cabecalho />
+    <SA/>
     </>
   )
 }
