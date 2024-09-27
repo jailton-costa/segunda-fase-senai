@@ -1,0 +1,10 @@
+.tudo{
+    padding: 20px; 
+    background-Color: var(--cor-5);
+}
+.adesivo{
+    color: var(--cor-3);
+}
+h1{
+    color: var(--cor-1);
+}

@@ -1,0 +1,35 @@
+:root{
+    --cor-1: #e23e57;
+    --cor-2: #ffffff;
+    --cor-3: #e96a7e;
+    --cor-4: #ce1f3a;
+    --cor-5: #e6e6e6;
+    --cor-6: #ef97a4;
+}
+body{
+    background-color: darkgray;
+}
+.tudoHeader {
+    display: inline-flex;
+    background-color: #e6e6e6;
+    border: 1px solid #e23e57;
+    border-radius: 10px;
+    width: 1000%;
+    justify-content: start;
+}
+.img{
+    width: 6%;
+
+}
+.espaço{
+    
+    
+}
+.buttonlocal{
+    margin-left: 85%;
+    position: absolute;
+}
+.button{
+    background-color: #e23e57;
+    border: #ffffff;
+}
