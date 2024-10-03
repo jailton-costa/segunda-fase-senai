@@ -15,20 +15,21 @@
 */
 
 import React from 'react'
-import './Body.css'
+import "./Rodape.css"
 
-function Body ()  {
+
+function Rodape () {
   return (
-    <div className='tudo'>
-      <h1>Bem-vindo à nossa página!</h1>
-      
-      <p className='adesivo'>Aqui está um texto de destaque com nosso diferencial competitivo: <strong>Adesivos personalizados!</strong></p>
-      <p>Oferecemos adesivos personalizados para tornar sua experiência única!</p>
-      <img src="./imagems/adesivos.png"/>
+    <div className='tudoRodape'>
+      <div className="espaçoRodape"></div><br />
+      <h4>sobre nós</h4>
+      <h4>fazer um comentário</h4>
+      <div className='imgs'></div>
+      <img src="./public/imagems/farmarcia-logo.png" className='imgRodape'/>
+      <img src="./public/images/redes-sociais.png" className='imgRodape2'/>
     </div>
   )
 }
 
-export default Body
-
+export default Rodape
 

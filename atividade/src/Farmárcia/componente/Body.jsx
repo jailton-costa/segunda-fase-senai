@@ -15,16 +15,20 @@
 */
 
 import React from 'react'
-import "./AnotherComponent.css"
+import './Body.css'
 
-function AnotherComponent () {
+function Body ()  {
   return (
     <div className='tudo'>
-      <h2>Nosso Diferencial</h2>
+      <h1>Bem-vindo à nossa página!</h1>
+      
+      <p className='adesivo'>Aqui está um texto de destaque com nosso diferencial competitivo: <strong>Adesivos personalizados!</strong></p>
       <p>Oferecemos adesivos personalizados para tornar sua experiência única!</p>
+      <img src="./imagems/adesivos.png"/>
     </div>
   )
 }
 
-export default AnotherComponent
+export default Body
+
 

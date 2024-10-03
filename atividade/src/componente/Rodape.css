@@ -1,0 +1,13 @@
+.tudoRodape{
+    
+    background-color: #e6e6e6;
+    padding: 15px;
+    border-Radius: 5px;
+    border: 1px solid black;
+}
+.espaçoRodape{
+    border: 1px solid #ce1f3a;
+}
+.imgs{
+    display: inline-flex;
+}
