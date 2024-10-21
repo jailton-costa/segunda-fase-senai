@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login e Cadastro</title>
+    <link rel="stylesheet" href="login-cadastro.css">
+    <link rel="shortcut icon" href="img logo.png" type="image/x-icon">
+</head>
+<body>
+<div class="cadrastroLogin">
+    <div class="container">
+        <!-- Área de Login -->
+        <div class="ÁreaLoCa-container sign-up-container">
+            <div class="ÁreaLoCa"><br>
+                <h1>Login</h1>
+                <h5>digite seus dados para fazer login</h5><br>
+                <input type="email" placeholder="Email" /><br>
+                <input type="password" placeholder="Senha" /><br>
+                <a href="" class="Aa"><h5>Esqueci minha senha</h5></a>
+                <div class="bts">
+                    <button>Entrar</button>
+                </div>
+            </div>
+        </div>
+        <!-- Área de Cadastro -->
+        <div class="ÁreaLoCa-container sign-in-container">
+            <div class="ÁreaLoCa">
+                <h1>Cadastro</h1>
+                <h5>Digite seus dados para se cadastrar no site</h5>
+                <input type="text" placeholder="Digite seu nome" />
+                <input type="email" placeholder="Digite seu E-mail" />
+                <input type="password" placeholder="Digite sua senha" />
+                <input type="password" placeholder="Confirme sua senha" />
+                <h5>eu aceito os termos de uso<div class="tm"><input type="checkbox"></div></h5>
+                <div class="bts">
+                    <button>cadastrar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Painel Overlay -->
+        <div class="sobreposição-container">
+            <div class="sobreposição">
+                <div class="sobreposição-panel sobreposição-right sign-in-container">
+                    <img src="img.png" class="imgLC">
+                    <button class="fantasma" id="signUp">fazer login ?</button>
+                </div>
+                <div class="sobreposição-pane sobreposição-left sign-up-container">
+                    <img src="IMG.png" class="imgLC">
+                    <button class="fantasma" id="signIn">fazer Cadastro ?</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="loginCadastro.js"></script>
+</body>
+</html>
