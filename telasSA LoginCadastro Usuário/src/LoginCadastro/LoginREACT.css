@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  border:1px solid black;
+  border:1px solid none;
   background-color: #D9D9D9;
   border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -55,26 +55,44 @@ body {
   justify-content: center;
   align-items: start;
   padding: 0 50px;
-  height: 100%;
+  max-height: 100%;
   text-align: center;
+}.menosEspaço{
+  margin-top: -1%;
+  margin-bottom: -3%;
+  max-width: 75%;
+}.MenosEspaço{
+  margin-right: 60%;
 }
 .bts{
   background: #D9D9D9;
   padding: 0 30%;
-}
-.tm{
+}   
+.tm{                                            
   display: inline-flex;
-  margin-right: 1px;
+  margin-top: 10%;
+  margin-right: 0px;
 }
-
-input {
+.espaçoLOGIN{
+  margin-top: 26%;  
+}
+.inputTtLO {
   background: #f0f0f0;
-  padding: 15px;
-  margin: 5px 0;
+  padding: 10px;
+  margin: 10px 0;
   width: 100%;
-  border:1px solid ;
+  border:none ;
   border-radius: 15px;
-}input :hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}.inputTT {
+  background: #f0f0f0;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border:none ;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}.inputTT :hover {
   transform: scale(1.1);
   border:1px solid #024959;
 }
@@ -82,7 +100,7 @@ input {
   width: 50%;
   height: 50%;
 }
-button {
+.btIR {
   border-radius: 20px;
   border: 1px solid rgb(255, 255, 255);
   background-color: #024959;
@@ -100,28 +118,41 @@ button:hover {
   transition:1s ;
   text-decoration: underline;
 }
-
-.fantasma {
-  background: transparent;
-  border-color: #fff;
-  color: #fff;
+.btLC {
+  border-radius: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #024959;
+  color: #D9D9D9;
+  font-size: 14px;
+  padding: 12px 45px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
+.btLC:hover {
+  border: 1px solid #D9D9D9;
+  border-radius: 20px;
+  transform: scale(1.1);
+  transition:1s ;
+  text-decoration: underline;
+}
 
 .azul-container {
-  position:static;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}.btIMG{
+  position: static;
   display: flex;
   flex-direction: column;
   align-items: center;
 }.mover-tela {
   padding-top: 15%;
-  transform: translateX(-50%);
+  transform: translateX(50%);
   border-radius: 10px;
   width: 50%;
   height: 100%;
   background-color: #024959;
   transition: transform 0.5s ease;
-}.mover-right {
-  transform: translateX(50%);
 }
-
