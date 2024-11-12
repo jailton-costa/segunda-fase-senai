@@ -1,54 +1,69 @@
-import React from 'react';
-import "../LoginCadastro/LoginREACT.css";
+import React,{useState} from 'react'
+import "./LoginREACT.css"
 
 function LoginREACT() {
+  // State para armazenar email e senha
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
+
+  // Função para lidar com o envio do formulário
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    setError('');
+
+    try {
+      // Enviar requisição de login
+      const response = await axios.post('https://api.exemplo.com/login', {
+        email: email,
+        password: password
+      });
+
+      // Verifica se o login foi bem-sucedido
+      if (response.data.success) {
+        alert('Login realizado com sucesso!');
+        // Redirecionar ou armazenar o token de autenticação
+      } else {
+        setError('Credenciais inválidas');
+      }
+    } catch (error) {
+      setError('Erro ao fazer login');
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
-    <div className="cadrastroLogin">
-      <div className="container" role="main">
-        
-        {/* Área de Login */}
-        <section className="ÁreaLoCa-containe" aria-labelledby="login-heading">
-          <div className="ÁreaLoCa">
-            <div className='espaçoLOGIN'></div>
-            <h1 id="login-heading">Login</h1>
-            <p>Insira seus dados para efetuar o login</p><br />
-            
-            <label htmlFor="login-email">E-mail</label>
-            <input 
-              className="inputTtLO" 
-              id="login-email" 
-              type="email" 
-              placeholder="Digite seu e-mail" 
-              aria-required="true" 
-            /> <br />
-            
-            <label htmlFor="login-password">Senha</label>
-            <input 
-              className="inputTtLO" 
-              id="login-password" 
-              type="password" 
-              placeholder="Digite sua senha" 
-              aria-required="true" 
-            /> <br />
-
-            <div className="bts">
-              <button className="btIR" type="submit" aria-label="Entrar">Entrar</button>
-            </div>
-          </div>
-        </section>
-
-        {/* Botão de Troca entre Login e Cadastro */}
-        <div className="azul-container">
-          <div className='mover-tela'>
-            <div className="btIMG" aria-live="polite">
-              <img src="./imagems/IMG.png" className="imgLC" alt="Imagem de login ou cadastro"/>
-              <button className="btIR" >fazer cadastro ?</button>
-            </div>
-          </div>
+    <div style={{ maxWidth: '300px', margin: '0 auto' }}>
+      <h2>Login</h2>
+      <form onSubmit={handleLogin}>
+        <div>
+          <label>Email:</label>
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
         </div>
-      </div>
+        <div>
+          <label>Senha:</label>
+          <input
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+          />
+        </div>
+        <button type="submit" disabled={loading}>
+          {loading ? 'Carregando...' : 'Login'}
+        </button>
+        {error && <p style={{ color: 'red' }}>{error}</p>}
+      </form>
     </div>
-  );
+  )
 }
 
-export default LoginREACT;
+export default LoginREACT

@@ -1,0 +1,507 @@
+.NavBar{
+
+    position: fixed;
+    border:  hidden ;
+    box-shadow: 4px 4px 6px rgb(117, 117, 117);
+    width: 100%;
+    background-color: #024959;
+    padding-top: 1%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 1%;
+    z-index: 100;
+
+   
+}
+
+.TextNavBar{
+
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    margin-top: 20px;
+    
+
+
+
+}
+
+.BuscarSearch{
+
+background-color: #D9D9D9;
+border: hidden;
+
+
+}
+
+.DivFedorenta{
+display: flex;
+gap: 20px;
+padding-right: 30px;
+justify-content: flex-end;
+
+
+
+}
+
+.BarraPesquisa{
+display: flex;
+background-color: #D9D9D9;
+border: hidden;
+box-shadow: 2px 2px 5px;
+margin-top: 10px;
+margin-right: 57%;
+border-radius: 10px;
+width: 17%;
+height: 35px;
+
+justify-content: space-around;
+
+
+
+
+}
+
+.Pesquisa{
+
+background-color: #D9D9D9;
+border: hidden;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+border-radius: 10px;
+width: 80%;
+outline: none;
+
+
+}
+
+.SearchIcon{
+
+width:30px;
+height: 30px;
+opacity: 20%;
+padding: 3px;
+}
+
+.LogoInklua{
+
+
+width: 8%;
+
+
+}
+
+
+
+body{
+
+background-color: #D9D9D9;
+padding: 0;
+margin: 0;
+
+
+
+}
+
+/* <!--<<<<<<<[ tela final ]>>>>>>>--> */
+.telaFinal{
+    background-color: #024959;
+    width: 100%;
+    height: max-content; 
+    display: block;
+}
+.espaçoCorFim{
+    border: 1px solid #5C868F;
+    width:  90%;
+    height: 0%;
+    margin: auto;
+}
+.textFinal{
+    margin-left: 4%;
+}
+
+.corbotão{
+   
+    color: #D9D9D9;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-size: 17px ;
+    
+}
+
+.corbotão:hover{
+
+color: yellow;
+
+}
+
+.imgFim{
+    width: 300px;
+    height: 0%;
+}
+.final{
+    margin-left: 4%;
+    display: inline-flex;
+}
+.corTextFinal{
+    color: #5C868F;
+}
+
+
+.divisao{
+
+border:1px solid #D9D9D9;
+height: 25px;
+margin: auto;
+
+}
+  
+.DivIcon{
+
+
+    display: flex;
+    
+    justify-content: space-around;
+    margin-bottom: 70px;
+    
+    }
+
+    .icon{
+
+        box-shadow: 2px 1px 10px rgb(0, 0, 0);
+        
+        padding: px;
+        border-radius: 50%;
+        background-color: rgb(183, 183, 183);
+        width: 10%;
+        text-align: center;
+        
+        }
+
+        .imgIcon{
+
+         margin-top: 50px;   
+         width: 80px;
+
+
+        }
+
+        .ImgComentarios{
+         
+         display: flex;
+         width: 1200px;
+         height: 500px;
+         border-radius: 10px;
+         box-shadow: 1px 1px 10px;
+         
+         margin-bottom: 200px;
+ 
+
+        }
+
+        .ImagemCadeirante{
+
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        height: 500px;
+
+
+        }
+
+        .NosAjude{
+
+            font-family: "Poppins", sans-serif;
+            width: 700px;
+            height: 500px;
+            padding-left: 30px;
+            background-color: #024959;
+            color: #D9D9D9;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            
+            
+        
+
+        }
+
+        .NosAjude > h2{
+
+        margin-top: 70px;
+        margin-left: 20px;
+        font-size: 50px;
+
+        }
+
+        .BotaoJuntese{
+
+       width: 130px;
+       height: 30px;
+       font-size: 20px;
+       border-radius: 5px;
+       margin-left: 120px;
+       background-color: #D9D9D9;
+       border: hidden;
+       
+
+        }
+
+        .InkluaJuntese{
+
+        display: flex;
+        
+
+
+        }
+
+        .Junte-seContainer{
+
+         display: flex;
+         justify-content: space-between;
+         margin-right: 5% ;
+         margin-top: 15%;
+
+
+        }
+
+
+        .CardFrase{
+
+            width: 300px;
+            height: 500px;
+            border: hidden;
+            border-radius: 10px;
+            box-shadow: 1px 1px 10px black;
+            background-color: #024959;
+            color: #D9D9D9;
+            font-family: "Poppins", sans-serif;
+
+
+        }
+
+        .CardFrase > h2{
+
+        margin-left: 10px;  
+        margin-top: 20%;
+       
+
+        }
+
+        .LogoInklua02{
+
+            width: 200px;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-left: 45px;
+       
+       
+           }
+
+        .Cards{
+
+        display: flex;
+        justify-content: space-around;
+ 
+
+        }
+
+        .CardEventos{
+         width: 300px;
+         height: 350px;
+         box-shadow: 1px 1px 10px;
+         border-radius: 28px;
+         margin-bottom: 70px;
+         margin-top: 20px;
+         background-color: white;
+         
+         
+         
+    
+
+        }
+
+        .ImgCard{
+
+         width: 300px;
+         border-top-left-radius: 10px;
+         border-top-right-radius: 10px;
+        
+
+        }
+
+        .RecadoInklua{
+
+        display: flex;
+        justify-content: space-around;
+        height: 400px;
+        background-color: white;
+        font-family: "Poppins", sans-serif;
+
+
+
+        }
+
+        .RecadoInklua > img{
+
+         width: 20%;
+         height: 80%;
+         margin-top: 20px;
+         
+
+
+        }
+
+        .ParagRec{
+            color: rgb(77, 77, 77);
+            margin-top: 100px;
+            font-size: 30px;
+
+
+
+
+        }
+
+        .shows{
+
+            
+            font-family: "Poppins", sans-serif;
+
+            font-size: 40px;
+            color: #024959;
+            margin-left: 70px;
+
+
+        }
+
+        .DataCard{
+
+
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: #024959;
+            font-size: 20px;
+            margin-left: 12px;
+
+   
+
+        }
+
+        .DataCard > p{
+
+         color: black;
+        margin: 0;
+        
+
+
+        }
+
+
+        .Destaques{
+            display: flex;
+            
+            justify-content: center;
+            
+            
+   
+   
+           }
+   
+           .ImgDestaque{
+   
+               
+               box-shadow: 1px 1px 10px;
+               border-radius: 20px;
+               width: 600px;
+               margin-top: 60px;
+               
+   
+       
+           }
+   
+           
+   
+           .ContainerDestaque{
+           display: flex;
+           justify-content: space-around;
+              background-color: #024959;
+              padding: 7%;
+              width: 55%;
+              margin-top: 10%;
+              box-shadow: 1px 1px 10px;
+              border-radius: 10px;
+              margin-right: 5%;
+           
+              
+   
+   
+   
+           }
+   
+           .FraseDestaque{
+   
+               font-family: "Poppins", sans-serif;
+               color: #D9D9D9;
+               font-size: 50px;
+               margin-right: 20px;
+               margin-left: 0;
+   
+   
+           }
+   
+           .FraseDestaque2{
+   
+               font-family: "Poppins", sans-serif;
+               color: #D9D9D9;
+               font-size: 25px;
+               margin-right: 20px;
+               margin-left: 0;
+   
+   
+           }
+   
+           .inkluaDestaque{
+   
+            width: 300px;
+            height: 300px;
+            margin-top: 10%;
+            
+   
+   
+   
+           }
+   
+           .Categorias{
+   
+               
+               font-family: "Poppins", sans-serif;
+   
+            
+               color: #024959;
+               margin-left: 70px;
+               margin-top: 10%;
+   
+   
+           }
+   
+           .inline{
+   
+            display: inline-block;
+            margin-top: 10%;
+           margin-left: 5%;
+   
+   
+   
+           }
+   
+           .FraseDestaque3{
+   
+              
+   
+                   font-family: "Poppins", sans-serif;
+                   color: #000000;
+                   font-size: 25px;
+                   margin-right: 20px;
+                   margin-left: 0;
+       
+       
+               }
+   
