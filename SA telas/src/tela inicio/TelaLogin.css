@@ -1,0 +1,111 @@
+.tudoCadastro {
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-top: -24%;
+}
+
+/* tudo */
+
+.parteAzul {
+  width: 100%;
+  height: 100%;
+  background-color: #024959;
+  border-radius: 1%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagemscadastrar {
+  width: 60%;
+  height: 50%;
+}
+
+/* tela branca funcional*/
+.parteBranca {
+  width: 100%;
+  height: 100%;
+  background-color: #d9d9d9;
+  border-radius: 1%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cadastrar {
+  width: 100%;
+  margin-top: -4%;
+  margin-right: -5%;
+  color: black;
+}.Cadastre-se {
+  color: #024959;
+}
+
+.partesInputsUmDois {
+  border: 1px solid black;
+  display: inline-flex;
+  color: black;
+  width: 50%;
+  height: 50%;
+  margin-top: -15%;
+}
+
+.parteUmInpus {
+  border: 1px solid rgb(72, 255, 0);
+
+  align-items: start;
+  width: 80%;
+  height: 80%;
+}
+.inputsLocal {
+  border: 1px solid rgb(255, 0, 0);
+  align-items: start;
+  width: fit-content;
+  margin-top: 5%;
+}
+
+.tamanhoInputs {
+  background-color: #FFFFFF;
+  color: black;
+  border-radius: 15px;
+  width: 150%;
+  height: 30px;
+  text-align: center;
+}
+.checkboxPCD{
+  border: 1px solid rgb(0, 183, 255);
+  margin-top: -2%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  color: black;
+  width: 30%;
+  text-align: start;
+}
+
+.btLocal{
+  margin-left: 10%;
+  align-items: center;
+}
+.btCadastrar{
+  margin-left: 20%;
+  width: 50%;
+  background-color: #024959;
+  color: #FFFFFF;
+}
+.btCadastrar:hover{
+  transform: scale(1.1); 
+  transition: 1s;
+  width: 55%;
+  border:1px solid #024959;
+  background-color: #d9d9d9;
+  color: #024959;
+}
+
+.tudoInputsCheckBT{
+  border: 1px solid rgb(0, 0, 0);
+  margin-left: 3%;
+  width: 90%;
+  height: 70%;
+}

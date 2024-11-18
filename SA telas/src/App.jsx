@@ -1,17 +1,13 @@
-import './App.css'
-import React from 'react'
-import TelaUM from './tela inicio/TelaUM'
-import Rodape from './tela inicio/Rodape'
-import NavbarB from './tela inicio/navbarB'
+import "./App.css"
+import React from "react"
+import TelaCadastro from "./tela inicio/TelaCadastro"
 
 function App() {
   return (
     <div>
-      <NavbarB/>
-      <TelaUM/>
-      <Rodape/>
+      <TelaCadastro />
     </div>
-)
+  )
 }
 
 export default App
