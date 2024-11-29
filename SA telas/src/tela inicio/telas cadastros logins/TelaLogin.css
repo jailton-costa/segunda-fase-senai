@@ -1,0 +1,134 @@
+.tudoCadastro {
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-top: -24%;
+  font-family: "Poppins", sans-serif;
+}
+
+/* tudo */
+
+.parteAzul {
+  width: 100%;
+  height: 100%;
+  background-color: #024959;
+  border-radius: 1%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagemscadastrar {
+  width: 60%;
+  height: 50%;
+}
+
+/* tela branca funcional*/
+.parteBranca {
+  width: 100%;
+  height: 100%;
+  background-color: #d9d9d9;
+  border-radius: 1%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cadastrar {
+  height: 25%;
+  margin-top: -3%;
+  margin-right: 30%;
+  color: darkgrey;
+}.Cadastre-se {
+  font-weight: 100;
+  margin-left: -2%;
+  color: #024959;
+  margin-bottom: -3%;
+}
+
+.partesInputsUmDois {
+  display: inline-flex;
+  color: black;
+  width: 50%;
+  height: 50%;
+  margin-top: -15%;
+  margin-left: 9%;
+}.parteUmInpus {
+  align-items: start;
+  width: 90%;
+  height: 90%;
+}.inputsLocal {
+  align-items: start;
+  width: fit-content;
+  margin-top: 10%;
+  margin-bottom: 25%;
+}
+
+.tamanhoInputs {
+  background-color: #FFFFFF;
+  color: black;
+  border: none;
+  outline: 0;
+  border-radius: 15px;
+  width: 170%;
+  height: 36px;
+  text-align: start;
+  padding-left: 10px;
+}
+.checkboxPCD{
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  color: black;
+  width: 55%;
+  text-align: start;
+}
+
+.btLocal{
+  margin-left: 5%;
+  align-items: center;
+}
+.btCadastrar{
+  margin-left: 17%;
+  width: 50%;
+  background-color: #024959;
+  color: #FFFFFF;
+  transform: scale(1.1); 
+  transition: 1s;
+}
+.btCadastrar:hover{
+  transform: scale(1.1); 
+  transition: 1s;
+  width: 55%;
+  border:1px solid #024959;
+  background-color: #d9d9d9;
+  color: #024959;
+}
+
+.tudoInputsCheckBT{
+  margin-top: 7%;
+  margin-left: -4%;
+  width: 70%;
+  height: 70%;
+}
+
+.btVoltarIMG{
+  position: absolute;
+  margin-top: 2%;
+  margin-left: -40%;
+  width: 6%;
+  height: 10%;
+  border-radius: 45%;
+  background-color: #024959;
+  color: #FFFFFF;
+}
+.btSenha{
+  position: absolute;
+  margin-top: -2.8%;
+  margin-left: 24%;
+  background-color: #FFFFFF;
+  color: black;
+  border: none;
+  border-radius: 10px;
+}

@@ -1,0 +1,97 @@
+.tudocarrossel {
+  font-family: Arial, sans-serif;
+  background-color: #d9d9d9;
+  color: #024959;
+  max-width: 100%;
+  margin-top: -1%;
+  text-align: center;
+}
+/* Estilos do Carrossel */
+.carrosselPrincipalUmDois{
+  display: inline-flex;
+}
+.carrosselPrincipal{
+  background-image: url(/public/imagems/imgAzul.png);
+  color: #d9d9d9;
+  width: 100%;
+}
+.carrosselPrincipalDOIS{
+
+}
+.carrosselIMG{
+  margin-left: 5%;
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+}
+
+.carrossel-conteudo {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carrossel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.carrossel-item .imgs123{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.carrossel-item {
+  margin-top: 10px;
+  color: #333;
+}
+
+.carrossel-botao {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.carrossel-botao.anterior {
+  left: 10px;
+}
+
+.carrossel-botao.proximo {
+  right: 10px;
+}
+
+/* Estilos da Lista de Shows e Festivais */
+.carrossel{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 10%;
+}
+.lista-eventos {
+  margin-top: 10px;
+}
+
+.cartoes-shows, .cartoes-festivais {
+  display: inline-flex;
+  gap: 15px;
+}
+
+.cartao {
+  background-color: #5e88e2;
+  border-radius: 8px;
+  padding: 0%5%;
+  max-width: 5%;
+  max-height: 0%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+.espacoShowFestivais{
+  margin-left: 2%;
+}
